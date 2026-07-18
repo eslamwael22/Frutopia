@@ -9,6 +9,9 @@ class Frutopia extends StatelessWidget {
   const Frutopia({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: const SplashView());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: const SplashView(),
+    );
   }
 }
